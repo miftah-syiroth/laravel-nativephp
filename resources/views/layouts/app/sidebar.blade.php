@@ -96,6 +96,9 @@
             </flux:toast.group>
         @endpersist
 
+        @livewire('notifications')
+        @filamentScripts
+        @vite('resources/js/app.js')
         @fluxScripts
     </body>
 </html>
